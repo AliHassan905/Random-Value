@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: black;
+}
+button.button {
+    width: 89%;
+    height: 48px;
+    color: white;
+    background: black;
+    margin: auto;
+    text-transform: uppercase;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 135px;
+    border: none;
+}
+div#div {
+    height: 55px;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+    margin: 49px 0px;
+    padding-top: 41px;
+}
+.shadow {
+    background: #ffffff;
+    opacity: 0.9;
+    background-blend-mode: darken;
+    z-index: 999;
+    position: relative;
+    width: 20%;
+    margin: auto;
+    height: 275px;
+    border-radius: 22px;
+    margin-top: 15%;
+}
+
